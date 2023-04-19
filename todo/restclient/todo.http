@@ -1,0 +1,10 @@
+@URL_BASE = http://localhost:8080
+
+### Criar Todo
+POST {{URL_BASE}}/todo
+Content-Type: application/json
+
+{
+   "descricao": "Aula na segunda",
+   "pessoaId": "bfa90686-e54f-478b-acaa-0181cb9d14e9"
+}

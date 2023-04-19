@@ -1,0 +1,17 @@
+@URL_BASE = http://localhost:8080
+
+### Obter todas as pessoas
+GET {{URL_BASE}}/pessoa
+
+### Obter uma pessoa pelo ID
+GET {{URL_BASE}}/pessoa/xxxxxx
+
+### Criar pessoa
+POST {{URL_BASE}}/pessoa
+Content-Type: application/json
+
+{
+   "nome": "James",
+   "email": "james@a.com",
+   "senha": "1234"
+}
